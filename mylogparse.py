@@ -17,3 +17,5 @@ with open('cat logfile.txt', 'r') as file:
             Check_list.append(List_new[i])
     for i in range(0, len(Check_list)):
         print "{0}  {1}".format(Check_list[i], List_new.count(Check_list[i]))
+		
+		# adding a comment
